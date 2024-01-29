@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="lognistyle.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="login-header">
+                <h1>Login</h1>
+            </header>
+            <main class="login-body">
+                <form action="#">
+                    <p>
+                        <label for="Email"> Your Email</label>
+                        <input type="email" class="Email" placeholder="Enter your Email" required>
+                    </p>
+                    <p>
+                        <label for="Password">Password</label>
+                        <input type="password" class="pwd" placeholder="password" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Login" onclick="checkData()">
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p><a href="index.html">Back</a></p>
+            </footer>
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
